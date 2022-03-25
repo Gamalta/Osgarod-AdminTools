@@ -1,0 +1,23 @@
+Permission:
+  Lookup: osgarod.cmd.lookup
+  Names: osgarod.lookup.names
+  Ip: osgarod.lookup.ip
+
+Lookup:
+  Usage: "La commande est /lookup <names/ip>"
+  NoPermission: "Vous n'avez pas la permission"
+  Names:
+    Usage: "Le commande est /lookup names <Player/uuid>"
+    NoPermission: "Vous n'avez pas la permission"
+    Format: "&7Nom: &f%pseudo%&7, Changé le: &f%date%&7."
+    FormatFirstName: "&7Premier nom: &f%pseudo%&7."
+    FirstMessage:
+      - "&cListe des &4&lnoms &cde &6%player%&c."
+      - ""
+    LastMessage: ""
+    PlayerNotFound: "Aucun joueur possède ce pseudo/uuid actuellement"
+    InvalidUUID: "l'uuid n'est pas valide"
+  Ip:
+    Usage: "La commande est /lookup ip <Player/ip>"
+    Failled: "Une erreur est survenue !"
+    NoPermission: "&cVous n'avez pas la permission"

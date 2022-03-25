@@ -1,0 +1,8 @@
+name: AdminTools
+main: fr.gamalta.osgarod.admintools.AdminTools
+version: 1.0
+author: Gamalta
+api-version: 1.14
+depend: [OsgarodCore]
+commands:
+  lookup:
